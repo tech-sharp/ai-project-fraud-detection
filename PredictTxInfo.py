@@ -35,4 +35,4 @@ class PredictTxInfoModel(Model):
     V28        = columns.Float()
     Amount     = columns.Float(required=False)
     P          = columns.Integer(index=True)
-
+
