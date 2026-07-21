@@ -35,4 +35,4 @@ class TxInfoModel(Model):
     V28        = columns.Float()
     Amount     = columns.Float(required=False)
     C          = columns.Integer(index=True)
-
+
