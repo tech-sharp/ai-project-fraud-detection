@@ -44,4 +44,4 @@ if __name__ == '__main__':
     cwd = CassandraReadWriteDb(ip_addrs=['172.17.0.2'], keyspace="emp")
     cwd.sync_class_table(TxInfoModel)
     #cwd.write_file_table('credit.csv')
-    print(cwd.get_pandas_from_cassandra())
+    print(cwd.get_pandas_from_cassandra())
